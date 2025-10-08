@@ -1,7 +1,7 @@
 services:
   web:
     container_name: ${ODOO_CONTAINER_NAME}
-    image: odoodev:${ODOO_VERSION}
+    image: odoo18:${ODOO_VERSION}
     # Comandos de odoo (actualizar, instalar, herramientas, etc)
     # command: odoo -u <module_name> -d <database_name> --dev=xml,qweb,reload
     depends_on:
