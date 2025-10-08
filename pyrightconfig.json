@@ -1,3 +1,8 @@
 {
-  "extraPaths": ["/path/server/odoo", "/path/server/odoo/addons", "/path/custom_addons"]
+  "stubPath": "C:\\Docker\\GitHub\\odoo-stubs-18.0",
+  "extraPaths": [
+    "C:\\Docker\\GitHub\\odoo-18.0", 
+    "C:\\Docker\\GitHub\\odoo-18.0\\addons", 
+    "C:\\Docker\\GitHub\\custom_addons"
+  ]
 }
