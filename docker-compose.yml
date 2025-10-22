@@ -14,6 +14,7 @@ services:
       - odoo-web-data:/var/lib/odoo
       - ${ODOO_SERVER}:/var/lib/odoo/odoo
       - ${CUSTOM_ADDONS}:/var/lib/odoo/custom_addons
+#    entrypoint: /usr/bin/python3 -m debugpy --listen 0.0.0.0:8888 /usr/bin/odoo -c /etc/odoo/odoo.conf
     environment:
       - DEBUGPY=true
       - DEBUGPY_PORT=${DEBUGPY_PORT}
